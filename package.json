@@ -6,10 +6,17 @@
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yznaw/portfolio.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^5.0.0"
+  "bugs": {
+    "url": "https://github.com/yznaw/portfolio/issues"
   },
-  "dependencies": {}
+  "homepage": "https://github.com/yznaw/portfolio#readme",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
 }
